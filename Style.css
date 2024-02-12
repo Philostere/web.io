@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e7e7;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff8b94;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ff8b94;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff6f61;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ff8b94;
+    overflow: hidden; 
+    border-radius: 10px;
+}
+
+.comment img.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-content {
+    overflow: hidden; 
+}
+
+.newsletter-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.newsletter-input {
+    padding: 10px;
+    width: 200px;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section {
+    background-color: #ffecb3;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-section h1 {
+    font-size: 72px;
+    color: #ff6f61;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comment-input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
